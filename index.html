@@ -184,7 +184,7 @@
     <div class="subtitle">Geordnete Binärbäume & Entwurfsmuster Kompositum</div>
 </header>
 
-<div class="download-area">
+<div class="download-area" id="download-area">
     <a href="Binärbaum.json"
        download="12-2 Binärbaum.json"
        class="download-button">
@@ -501,6 +501,7 @@ riNext.<span class="mtd">ausgeben</span>();
         // Menü ausblenden
         document.getElementById('menu').style.display = 'none';
         document.getElementById('main-header').style.display = 'none';
+        document.getElementById('download-area').style.display = 'none';
         
         // Alle Module ausblenden
         document.querySelectorAll('.module').forEach(el => {
